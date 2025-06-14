@@ -1,0 +1,13 @@
+### Note: DO NOT use quantized model or quantization_bit when merging lora adapters
+
+### model
+model_name_or_path: /code/model/Llama-3.1-8B-Instruct
+adapter_name_or_path: /code/LLaMA-Factory/saves/Llama-3.1-8B-Instruct-openThoughts/lora/sft/checkpoint-13000
+template: llama3
+trust_remote_code: true
+
+### export
+export_dir: /code/model/Llama-3.1-8B-Instruct-maxlength16384-checkpoint13000
+export_size: 5
+export_device: auto  # choices: [cpu, auto]
+export_legacy_format: false
