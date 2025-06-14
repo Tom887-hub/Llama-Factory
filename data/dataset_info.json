@@ -335,7 +335,7 @@
     }
   },
   "open_thoughts": {
-    "hf_hub_url": "/code/data/llamafactory-openThoughts-114K/data",
+    "hf_hub_url": "llamafactory/OpenThoughts-114k",
     "formatting": "sharegpt",
     "columns": {
       "messages": "messages"
